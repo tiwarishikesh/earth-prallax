@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap');
+
+body{
+    position: relative;
+    width:100vw;
+    overflow-x: hidden;
+}
+
+.w-full{
+    width:100%;
+}
+
+.p-0{
+    padding:0;
+}
+
+
+app{
+    display: block;
+    height: 100vh;
+    width:100vw;
+    overflow-y:scroll ;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+.landing-section{
+    height:300vh;
+    position: relative;
+    overflow:hidden;
+}
+
+.landing-single-slide{
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Roboto Condensed';
+    color:white
+}
+
+.text-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100vw;
+    height:100vh;
+    z-index: 999;
+}
+
+.text-wrapper-one{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.text-container-one{
+    display:block;
+}
+
+.text-container-one h1,
+.text-container-one h4,
+.text-container-one button{
+    text-align:center;
+    color:white;
+}
+
+.text-container-one h1{
+    color:#efefef;
+    font-size:72px;
+}
+
+.text-container-one h4{
+    color:#acacac;
+    font-size:28px;
+}
+.text-container-one .button{
+    border: 1px solid #efefef;
+    width:fit-content;
+    text-align:center;
+    background:#efefef;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:24px;
+    display:block;
+    margin:auto;
+    margin-top:35px;
+}
+
+.text-wrapper-two{
+    position:absolute;
+    right:0;
+    top:0;
+    width:50vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    opacity:0;
+}
+
+.text-container-two{
+    display:block;
+}
+
+.text-container-two h1,
+.text-container-two h4,
+.text-container-two button{
+    text-align:center;
+    color:white;
+}
+
+.text-container-two h1{
+    color:#efefef;
+    font-size:72px;
+}
+
+.text-container-two h4{
+    color:#cacaca;
+    font-size:28px;
+}
+.text-container-two .button{
+    border: 2px solid #efefef;
+    width:fit-content;
+    text-align:center;
+    background:transparent;
+    color:#dedede;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:24px;
+    display:block;
+    margin-left:0;
+    margin-top:35px;
+}
+
+.text-wrapper-three{
+    position:absolute;
+    left:0;
+    top:0;
+    width:50vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    opacity:0;
+}
+
+.text-container-one{
+    display:block;
+}
+
+.text-container-three h1,
+.text-container-three h4,
+.text-container-three button{
+    text-align:center;
+    color:white;
+}
+
+.text-container-three h1{
+    color:#efefef;
+    font-size:72px;
+}
+
+.text-container-three h4{
+    color:#cacaca;
+    font-size:28px;
+    text-align:right;
+}
+.text-container-three .button{
+    border: 2px solid #efefef;
+    width:fit-content;
+    text-align:center;
+    background:transparent;
+    color:#dedede;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:24px;
+    display:block;
+    margin-right:0;
+    margin-top:35px;
+}
+
+.glow {
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-weight:100;
+    font-family: 'Roboto';
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      letter-spacing: 5px;
+      text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #005ce6, 0 0 8px #0023e6, 0 0 10px #0051e6, 0 0 12px #005ce6, 0 0 14px #005ce6;
+    }
+    
+    to {
+    letter-spacing: 5.2px;
+      text-shadow: 0 0 4px #fff, 0 0 6px #4d85ff, 0 0 8px #4d9aff, 0 0 10px #4d85ff, 0 0 12px #4d7fff, 0 0 14px #4d7fff, 0 0 16px #4d77ff;
+    }
+  }
+
+
+
+
+
+
+
+body {
+  scrollbar-color: var(--scroll-thumb-color, grey) var(--scroll-track, transparent);
+  scrollbar-width: thin;
+}
+body::-webkit-scrollbar {
+  width: var(--scroll-size, 10px);
+  height: var(--scroll-size, 10px);
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--scroll-track, transparent);
+  border-radius: var(--scroll-track-radius, var(--scroll-radius));
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color, grey);
+  background-image: var(--scroll-thumb, none);
+  border-radius: var(--scroll-thumb-radius, var(--scroll-radius));
+}
+body {
+  --scroll-size: 10px;
+  --scroll-radius: 10px;
+  --scroll-track: rgb(0 0 0 / 40%);
+  --scroll-thumb-color: #dfdfdf;
+}
+body {
+  --scroll-size: 8px;
+  --scroll-radius: 10px;
+  --scroll-track: rgb(255 255 255 / 10%);
+  --scroll-thumb-color: rgb(96 139 170);
+}
