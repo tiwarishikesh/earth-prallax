@@ -30,7 +30,7 @@ function AnimationsInit() {
             trigger: ".landing-section",
             pin:".earth",
             start:"top top",
-            end:"bottom top",
+            end:"bottom bottom",
             scrub: true,
         },
     });
@@ -66,7 +66,7 @@ function AnimationsInit() {
             trigger: ".landing-section",
             pin:".text-wrapper-two",
             start:"top top",
-            end:"bottom top",
+            end:"bottom bottom",
             scrub: true,
         },
     });
@@ -89,7 +89,7 @@ function AnimationsInit() {
             trigger: ".landing-section",
             pin:".text-wrapper-three",
             start:"top top",
-            end:"bottom top",
+            end:"bottom bottom",
             scrub: true,
         },
     });

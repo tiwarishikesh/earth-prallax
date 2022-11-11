@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap');
 
 body{
     position: relative;
@@ -76,11 +76,13 @@ h1,h2,h3,h4,h5,h6,p,a{
 .text-container-one h1{
     color:#efefef;
     font-size:72px;
+    font-family: 'Bebas Neue';
 }
 
 .text-container-one h4{
     color:#acacac;
     font-size:28px;
+    font-family: 'Clash Display';
 }
 .text-container-one .button{
     border: 1px solid #efefef;
@@ -94,6 +96,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     display:block;
     margin:auto;
     margin-top:35px;
+    font-family: 'Bebas Neue';
 }
 
 .text-wrapper-two{
@@ -122,12 +125,15 @@ h1,h2,h3,h4,h5,h6,p,a{
 .text-container-two h1{
     color:#efefef;
     font-size:72px;
+    font-family: 'Bebas Neue';
 }
 
 .text-container-two h4{
     color:#cacaca;
     font-size:28px;
+    font-family: 'Clash Display';
 }
+
 .text-container-two .button{
     border: 2px solid #efefef;
     width:fit-content;
@@ -141,6 +147,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     display:block;
     margin-left:0;
     margin-top:35px;
+    font-family: 'Bebas Neue';
 }
 
 .text-wrapper-three{
@@ -169,13 +176,16 @@ h1,h2,h3,h4,h5,h6,p,a{
 .text-container-three h1{
     color:#efefef;
     font-size:72px;
+    font-family: 'Bebas Neue';
 }
 
 .text-container-three h4{
     color:#cacaca;
     font-size:28px;
     text-align:right;
+    font-family: 'Clash Display';
 }
+
 .text-container-three .button{
     border: 2px solid #efefef;
     width:fit-content;
@@ -189,6 +199,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     display:block;
     margin-right:0;
     margin-top:35px;
+    font-family: 'Bebas Neue';
 }
 
 .glow {
